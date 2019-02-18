@@ -3,7 +3,7 @@
 //background { color Gray }
           
 camera{
-    location <5, 0, 0>
+    location <4, 2, -clock+15>
     look_at <0, 0, 0>
 }
 
@@ -85,5 +85,5 @@ plane {
 
 }
 
-object{train}
+object{train translate <-clock, 0, 0>}
 object{stopsign rotate <0,90,0> translate <5,-0.325,4>}
